@@ -1,0 +1,155 @@
+/* ESTILO GLOBAL */
+*{ 
+    margin: 0;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* BODY*/
+body{
+    background-image: url(banner.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;   
+    background-color:#383840;
+}
+
+/* HEADER */
+header{
+display:flex;
+justify-content: space-between;
+}
+header p{
+    font-size: 25px;
+    margin: 30px;
+    color:black
+
+}
+header a {
+    display: inline-block;
+    color:black;
+    margin-top:40px;
+    margin-right: 30px;
+text-decoration: none;
+}
+
+header a:hover{
+    color: blue
+}
+
+/* Banner */
+.banner{
+margin-left: 40%;
+margin-right: 10%;
+margin-top: 100px;
+}
+
+.banner h1{
+    font-size: 30px;
+}
+
+.banner p{
+text-align: justify;
+margin-top:50px;
+font-size: 18px;
+line-height: 40px;
+}
+/* MAIN */
+main{
+    margin-top: 610px;
+    background-color:#fff;
+}
+/* SEGMENTOS */
+.segmentos ul{
+display: flex;
+justify-content: space-between;
+list-style:none;
+}
+.segmentos i{
+font-size: 30px;
+margin-bottom: 10px;
+}
+
+.segmentos li{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    transition: background-color 0.3s;
+    padding: 20px;
+    border-radius: 100px;
+}
+
+.segmentos li:hover{
+ background-color: rgb(221, 212, 212);   
+}
+
+/* SOBRE */
+.sobre{
+    display: flex;
+}
+.sobre img{
+    width: 50%;
+    padding: 5%;
+}
+
+.sobre div{
+    padding: 5%;
+}
+
+.sobre h1{
+    font-size:40px;
+    margin-bottom:40px;
+}
+
+.sobre p{
+    margin-top:20px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+/* FOOTER */
+footer{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 30px;
+}
+
+footer i {
+    margin-left: 20px;
+}
+/* CLIENTES */
+.clientes img{
+    width: 150px;
+    height: 150px;
+}
+
+/* CONTATO */
+.contato{
+display: flex;
+justify-content: space-evenly;
+
+}
+
+.contato iframe{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 700px;
+    height: 450px;
+}
+
+.contato form{
+    width: 700px;
+}
+
+input [type="text"]{
+width: 100%;
+padding-top: 10px;
+padding-bottom: 10px;
+margin-bottom: 20px;
+
+}
+
+
+textarea{
+    height: 260px;
+    resize:none;
+}
